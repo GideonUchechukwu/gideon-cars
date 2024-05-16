@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-ul{
+li {
 
     list-style: none;
 }
@@ -36,27 +36,45 @@ ul{
 }
 
 
-.links-div ul{
+.links-div ul {
     display: flex;
     align-items: center;
     color: white;
     justify-content: flex-end;
-    gap:40px ;
-    padding-right:30px ;
+    gap: 40px;
+    padding-right: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
 
 
 }
-.links-div ul li button{
-height: ;
 
+.links-div ul li:hover {
+    cursor: pointer;
 
 }
+
+.butin {
+    height: 50px;
+    width: 140px;
+    font-weight: 500;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.butin:hover {
+    cursor: pointer;
+    background-color: red;
+    border: none;
+}
+
 
 .logo {
-    margin-left: 20px;
+    margin-left: 60px;
     background-color: black;
     height: 100px;
     width: 100px;
@@ -68,3 +86,82 @@ img {
     height: inherit;
     width: inherit;
 }
+
+.links-cont2 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 15%;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.sentra {
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.sentra:hover {
+    cursor: pointer;
+}
+
+.link2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 15%;
+
+}
+
+.link2 li:hover {
+    cursor: pointer;
+
+}
+
+.butin2 {
+    margin-right: -70px;
+    height: 50px;
+    width: 140px;
+    font-weight: 500;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+
+}
+
+.butin2:hover {
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.bg-words {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 30%;
+    height: 60%;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bolded-wrds{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+
+
+
