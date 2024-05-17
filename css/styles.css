@@ -197,7 +197,7 @@ img {
     height: 40px;
     border-radius: 30px;
     border: none;
-    box-shadow: 0 0 5px 1px black;
+    box-shadow: 0 0 15px 1px black;
 
 }
 .find button{
